@@ -1,0 +1,175 @@
+/*-------------- GENERAL STYLES-------------- */
+
+@font-face {
+  font-family: 'Akkurat';
+  src: url('./FontsFree-Net-Akkurat-Bold.ttf');
+}
+
+html {
+  font-size: 1rem;
+  width: 100%
+}
+
+* {
+  font-family: 'Akkurat', sans-serif;
+}
+
+.secondaryColor {
+  background-color: rgb(255, 204, 51);
+}
+
+.primaryColor {
+  background-color: rgb(153, 102, 102);
+}
+
+h5 {
+  font-size: 14px;
+  font-family: "Akkurat";
+  color: #ffffcc;
+  line-height: 1.2;
+  padding: 0.5rem;
+}
+
+h4 {
+  font-size: 16px;
+  font-family: "Akkurat";
+  color: rgb(255, 204, 51);
+  line-height: 1.2;
+  padding: 0.5rem;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: "Akkurat";
+  color: rgb(153, 102, 102);
+  line-height: 1.2;
+  padding: 0.5rem;
+}
+
+/*--------------BACKGROUND-------------- */
+
+nav {
+  height: 90px;
+}
+
+.signIn {
+  border-radius: 10px;
+  background-color: rgb(255, 204, 51);
+  width: 131px;
+  height: 41px;
+  font-size: 20px;
+  font-family: "Akkurat";
+  color: rgb(153, 102, 102);
+  line-height: 1.25;
+  border-width: 3px;
+}
+
+button{
+  border-radius: 10px;
+  background-color: rgb(255, 204, 51);
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: "Akkurat";
+  color: rgb(153, 102, 102);
+  border-width: 3px;
+}
+
+main {
+  background: url(../Media_Files/bkg.jpg) no-repeat center;
+  background-size: cover;
+  top: 90px;
+}
+
+.hero-image {
+  background: url(../Media_Files/img_large.png) no-repeat center;
+  background-size: cover;
+  height: 700px;
+  margin-top: 90px;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-footer {
+  background-color: rgb(153, 102, 102);
+  height: 62px;
+}
+
+.fa-bars, .fa-star {
+  color: rgb(255, 204, 51);
+  font-size: 20px;
+  text-shadow: 0 0 15px rgb(153, 102, 102);
+}
+
+.fa-bars {
+   font-size: 35px;
+}
+
+.imageText {
+  color: rgb(255, 255, 204);
+  line-height: 1.2;
+}
+
+footer {
+  height:186px;
+  color: rgb(255, 255, 204);
+}
+
+.blockquote-footer, .fa-quote-left, .fa-quote-right {
+  color: rgb(153, 102, 102);
+}
+
+.blockquote-footer{
+  height: auto;
+}
+
+.service-image1 {
+  background: url(../Media_Files/service1.jpg) no-repeat center;
+  background-size: cover;
+  height: 300px;
+}
+.service-image2 {
+  background: url(../Media_Files/service2.jpg) no-repeat center;
+  background-size: cover;
+  height: 300px;
+}
+
+/*-------------- RESPONSIVE FONT -------------- */
+
+@media (min-width: 640px) {
+  html {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 16px;
+  }
+  footer {
+    height:160px
+  }
+}
+
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 1.4rem;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 24px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+}
