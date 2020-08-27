@@ -10,6 +10,8 @@ spotted something truly exciting that is worth an entertaining anecdote. TakeAHi
 platform for pioneers and experts alike to share their experiences and helps build happy and healthy
 communities of trail hikers. 
 
+[Take a hike Demo](https://ms-load.github.io/Take_a_hike/)
+
 ## Credits:
 * All photos taken form [unsplash](https://unsplash.com/)
 ***
