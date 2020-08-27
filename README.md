@@ -13,6 +13,3 @@ communities of trail hikers.
 ## Credits:
 * All photos taken form [unsplash](https://unsplash.com/)
 ***
-
-***
-# Take_a_hike
